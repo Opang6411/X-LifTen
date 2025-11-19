@@ -24,7 +24,7 @@ def main():
             auth.register()
 
         elif pilihan == "3":
-            print("👋 Terima kasih telah menggunakan X-LifTen!")
+            print("Terima kasih telah menggunakan X-LifTen!")
             break
 
         else:
