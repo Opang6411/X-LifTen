@@ -4,7 +4,7 @@ import ui
 
 def main():
     while True:
-        print("=== X-LifTen Anime Streaming ===")
+        print("=== X-LifTen Anime & Donghua Streaming ===")
         print("1. Login")
         print("2. Register")
         print("3. Keluar")
@@ -24,7 +24,7 @@ def main():
             auth.register()
 
         elif pilihan == "3":
-            print("👋 Terima kasih telah menggunakan X-LifTen!")
+            print("Terima kasih telah menggunakan X-LifTen!")
             break
 
         else:
