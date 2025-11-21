@@ -5,10 +5,26 @@
         "genre": "Action, Drama",
         "rating": 9.0,
         "episodes": [
-            {"judul": "Episode 1 - To You, in 2000 Years", "akses": "gratis"},
-            {"judul": "Episode 2 - That Day", "akses": "gratis"},
-            {"judul": "Episode 3 - A Dim Light Amid Despair", "akses": "premium"},
-            {"judul": "Episode 4 - The Night of the Closing Ceremony", "akses": "premium"}
+            {
+                "judul": "Episode 1 - To You, in 2000 Years",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - That Day",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - A Dim Light Amid Despair",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - The Night of the Closing Ceremony",
+                "akses": "premium"
+            },
+            {
+                "judul": "Barudak Titan",
+                "akses": "gratis"
+            }
         ]
     },
     {
@@ -17,9 +33,22 @@
         "genre": "Action, Fantasy",
         "rating": 8.7,
         "episodes": [
-            {"judul": "Episode 1 - Cruelty", "akses": "gratis"},
-            {"judul": "Episode 2 - Trainer Sakonji Urokodaki", "akses": "premium"},
-            {"judul": "Episode 3 - Sabito and Makomo", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Cruelty",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Trainer Sakonji Urokodaki",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Sabito and Makomo",
+                "akses": "premium"
+            },
+            {
+                "judul": "Barudak demon",
+                "akses": "premium"
+            }
         ]
     },
     {
@@ -28,185 +57,498 @@
         "genre": "Romance, Supernatural",
         "rating": 8.9,
         "episodes": [
-            {"judul": "Episode 1", "akses": "gratis"},
-            {"judul": "Episode 2", "akses": "premium"}
+            {
+                "judul": "Episode 1",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 4,
         "judul": "Jujutsu Kaisen",
         "genre": "Action, Supernatural",
         "rating": 8.6,
         "episodes": [
-            {"judul": "Episode 1 - Ryomen Sukuna", "akses": "gratis"},
-            {"judul": "Episode 2 - For Myself", "akses": "premium"},
-            {"judul": "Episode 3 - Girl of Steel", "akses": "premium"},
-            {"judul": "Episode 4 - Curse Womb Must Die", "akses": "premium"},
-            {"judul": "Episode 5 - Rain After", "akses": "premium"},
-            {"judul": "Episode 6 - After Rain", "akses": "premium"},
-            {"judul": "Episode 7 - Assault", "akses": "premium"},
-            {"judul": "Episode 8 - Boredom", "akses": "premium"},
-            {"judul": "Episode 9 - Small Fry and Reverse Retribution", "akses": "premium"},
-            {"judul": "Episode 10 - Idle Transfiguration", "akses": "premium"},
-            {"judul": "Episode 11 - Narrow-minded", "akses": "premium"},
-            {"judul": "Episode 12 - To You, Someday", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Ryomen Sukuna",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - For Myself",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Girl of Steel",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Curse Womb Must Die",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Rain After",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - After Rain",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Assault",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Boredom",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Small Fry and Reverse Retribution",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Idle Transfiguration",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Narrow-minded",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - To You, Someday",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 5,
         "judul": "My Hero Academia",
         "genre": "Action, Superhero",
         "rating": 8.3,
         "episodes": [
-            {"judul": "Episode 1 - Izuku Midoriya: Origin", "akses": "gratis"},
-            {"judul": "Episode 2 - What It Takes to Be a Hero", "akses": "gratis"},
-            {"judul": "Episode 3 - Roaring Muscles", "akses": "premium"},
-            {"judul": "Episode 4 - Start Line", "akses": "premium"},
-            {"judul": "Episode 5 - What I Can Do for Now", "akses": "premium"},
-            {"judul": "Episode 6 - Rage, You Damned Nerd", "akses": "premium"},
-            {"judul": "Episode 7 - Deku vs. Kacchan", "akses": "premium"},
-            {"judul": "Episode 8 - Bakugo’s Start Line", "akses": "premium"},
-            {"judul": "Episode 9 - Yeah, Just Do Your Best, Iida!", "akses": "premium"},
-            {"judul": "Episode 10 - Encounter With the Unknown", "akses": "premium"},
-            {"judul": "Episode 11 - Game Over", "akses": "premium"},
-            {"judul": "Episode 12 - All Might", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Izuku Midoriya: Origin",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - What It Takes to Be a Hero",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Roaring Muscles",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Start Line",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - What I Can Do for Now",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Rage, You Damned Nerd",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Deku vs. Kacchan",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Bakugo’s Start Line",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Yeah, Just Do Your Best, Iida!",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Encounter With the Unknown",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Game Over",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - All Might",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 6,
         "judul": "Tokyo Ghoul",
         "genre": "Horror, Action",
         "rating": 7.9,
         "episodes": [
-            {"judul": "Episode 1 - Tragedy", "akses": "gratis"},
-            {"judul": "Episode 2 - Incubation", "akses": "premium"},
-            {"judul": "Episode 3 - Dove", "akses": "premium"},
-            {"judul": "Episode 4 - Supper", "akses": "premium"},
-            {"judul": "Episode 5 - Scars", "akses": "premium"},
-            {"judul": "Episode 6 - Cloudburst", "akses": "premium"},
-            {"judul": "Episode 7 - Captivity", "akses": "premium"},
-            {"judul": "Episode 8 - Circular", "akses": "premium"},
-            {"judul": "Episode 9 - Birdcage", "akses": "premium"},
-            {"judul": "Episode 10 - Aogiri", "akses": "premium"},
-            {"judul": "Episode 11 - High Spirits", "akses": "premium"},
-            {"judul": "Episode 12 - Ghoul", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Tragedy",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Incubation",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Dove",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Supper",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Scars",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Cloudburst",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Captivity",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Circular",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Birdcage",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Aogiri",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - High Spirits",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Ghoul",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 7,
         "judul": "Sword Art Online",
         "genre": "Action, Isekai",
         "rating": 7.8,
         "episodes": [
-            {"judul": "Episode 1 - The World of Swords", "akses": "gratis"},
-            {"judul": "Episode 2 - Beater", "akses": "gratis"},
-            {"judul": "Episode 3 - The Red-Nosed Reindeer", "akses": "premium"},
-            {"judul": "Episode 4 - The Black Swordsman", "akses": "premium"},
-            {"judul": "Episode 5 - A Crime Within the Walls", "akses": "premium"},
-            {"judul": "Episode 6 - Illusionary Avenger", "akses": "premium"},
-            {"judul": "Episode 7 - Warmth of the Heart", "akses": "premium"},
-            {"judul": "Episode 8 - The Sword Dance of Black and White", "akses": "premium"},
-            {"judul": "Episode 9 - The Blue-Eyed Demon", "akses": "premium"},
-            {"judul": "Episode 10 - Crimson Killing Intent", "akses": "premium"},
-            {"judul": "Episode 11 - The Girl of Morning Dew", "akses": "premium"},
-            {"judul": "Episode 12 - Yui’s Heart", "akses": "premium"},
-            {"judul": "Episode 13 - Edge of Hell’s Abyss", "akses": "premium"},
-            {"judul": "Episode 14 - The End of the World", "akses": "premium"}
+            {
+                "judul": "Episode 1 - The World of Swords",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Beater",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - The Red-Nosed Reindeer",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - The Black Swordsman",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - A Crime Within the Walls",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Illusionary Avenger",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Warmth of the Heart",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - The Sword Dance of Black and White",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - The Blue-Eyed Demon",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Crimson Killing Intent",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - The Girl of Morning Dew",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Yui’s Heart",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 13 - Edge of Hell’s Abyss",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 14 - The End of the World",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 8,
         "judul": "Death Note",
         "genre": "Thriller, Mystery",
         "rating": 9.0,
         "episodes": [
-            {"judul": "Episode 1 - Rebirth", "akses": "gratis"},
-            {"judul": "Episode 2 - Confrontation", "akses": "premium"},
-            {"judul": "Episode 3 - Dealings", "akses": "premium"},
-            {"judul": "Episode 4 - Pursuit", "akses": "premium"},
-            {"judul": "Episode 5 - Tactics", "akses": "premium"},
-            {"judul": "Episode 6 - Unraveling", "akses": "premium"},
-            {"judul": "Episode 7 - Overcast", "akses": "premium"},
-            {"judul": "Episode 8 - Glare", "akses": "premium"},
-            {"judul": "Episode 9 - Encounter", "akses": "premium"},
-            {"judul": "Episode 10 - Doubt", "akses": "premium"},
-            {"judul": "Episode 11 - Assault", "akses": "premium"},
-            {"judul": "Episode 12 - Love", "akses": "premium"},
-            {"judul": "Episode 13 - Confession", "akses": "premium"},
-            {"judul": "Episode 14 - Friend", "akses": "premium"},
-            {"judul": "Episode 15 - Wager", "akses": "premium"},
-            {"judul": "Episode 16 - Decision", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Rebirth",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Confrontation",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Dealings",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Pursuit",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Tactics",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Unraveling",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Overcast",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Glare",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Encounter",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Doubt",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Assault",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Love",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 13 - Confession",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 14 - Friend",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 15 - Wager",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 16 - Decision",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 9,
         "judul": "One Punch Man",
         "genre": "Action, Comedy",
         "rating": 8.5,
         "episodes": [
-            {"judul": "Episode 1 - The Strongest Man", "akses": "gratis"},
-            {"judul": "Episode 2 - The Lone Cyborg", "akses": "gratis"},
-            {"judul": "Episode 3 - The Obsessive Scientist", "akses": "premium"},
-            {"judul": "Episode 4 - The Modern Ninja", "akses": "premium"},
-            {"judul": "Episode 5 - The Ultimate Master", "akses": "premium"},
-            {"judul": "Episode 6 - The Terrifying City", "akses": "premium"},
-            {"judul": "Episode 7 - The Ultimate Disciple", "akses": "premium"},
-            {"judul": "Episode 8 - The Deep Sea King", "akses": "premium"},
-            {"judul": "Episode 9 - Unyielding Justice", "akses": "premium"},
-            {"judul": "Episode 10 - Unparalleled Peril", "akses": "premium"},
-            {"judul": "Episode 11 - The Dominator of the Universe", "akses": "premium"},
-            {"judul": "Episode 12 - The Strongest Hero", "akses": "premium"}
+            {
+                "judul": "Episode 1 - The Strongest Man",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - The Lone Cyborg",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - The Obsessive Scientist",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - The Modern Ninja",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - The Ultimate Master",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - The Terrifying City",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - The Ultimate Disciple",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - The Deep Sea King",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Unyielding Justice",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Unparalleled Peril",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - The Dominator of the Universe",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - The Strongest Hero",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 10,
         "judul": "Haikyuu!!",
         "genre": "Sports, Comedy",
         "rating": 8.9,
         "episodes": [
-            {"judul": "Episode 1 - The End and the Beginning", "akses": "gratis"},
-            {"judul": "Episode 2 - Karasuno High School Volleyball Club", "akses": "gratis"},
-            {"judul": "Episode 3 - The Formidable Ally", "akses": "premium"},
-            {"judul": "Episode 4 - The View from the Summit", "akses": "premium"},
-            {"judul": "Episode 5 - A Coward’s Anxiety", "akses": "premium"},
-            {"judul": "Episode 6 - An Attempt to Connect", "akses": "premium"},
-            {"judul": "Episode 7 - Versus the Great King", "akses": "premium"},
-            {"judul": "Episode 8 - He Who is Called Ace", "akses": "premium"},
-            {"judul": "Episode 9 - A Toss to the Ace", "akses": "premium"},
-            {"judul": "Episode 10 - Yearning", "akses": "premium"},
-            {"judul": "Episode 11 - Decision", "akses": "premium"},
-            {"judul": "Episode 12 - The Neko-Karasu Reunion", "akses": "premium"},
-            {"judul": "Episode 13 - The Iron Wall", "akses": "premium"},
-            {"judul": "Episode 14 - Still Growing", "akses": "premium"},
-            {"judul": "Episode 15 - Revival", "akses": "premium"}
+            {
+                "judul": "Episode 1 - The End and the Beginning",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Karasuno High School Volleyball Club",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - The Formidable Ally",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - The View from the Summit",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - A Coward’s Anxiety",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - An Attempt to Connect",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Versus the Great King",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - He Who is Called Ace",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - A Toss to the Ace",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Yearning",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Decision",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - The Neko-Karasu Reunion",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 13 - The Iron Wall",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 14 - Still Growing",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 15 - Revival",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 11,
         "judul": "Fullmetal Alchemist: Brotherhood",
         "genre": "Action, Adventure",
         "rating": 9.1,
         "episodes": [
-            {"judul": "Episode 1 - Fullmetal Alchemist", "akses": "gratis"},
-            {"judul": "Episode 2 - The First Day", "akses": "premium"},
-            {"judul": "Episode 3 - City of Heresy", "akses": "premium"},
-            {"judul": "Episode 4 - An Alchemist's Anguish", "akses": "premium"},
-            {"judul": "Episode 5 - Rain of Sorrows", "akses": "premium"},
-            {"judul": "Episode 6 - Road of Hope", "akses": "premium"},
-            {"judul": "Episode 7 - Hidden Truths", "akses": "premium"},
-            {"judul": "Episode 8 - The Fifth Laboratory", "akses": "premium"},
-            {"judul": "Episode 9 - Created Feelings", "akses": "premium"},
-            {"judul": "Episode 10 - Separate Destinations", "akses": "premium"},
-            {"judul": "Episode 11 - Miracle at Rush Valley", "akses": "premium"},
-            {"judul": "Episode 12 - One is All", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Fullmetal Alchemist",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - The First Day",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - City of Heresy",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - An Alchemist's Anguish",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Rain of Sorrows",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Road of Hope",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Hidden Truths",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - The Fifth Laboratory",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Created Feelings",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Separate Destinations",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Miracle at Rush Valley",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - One is All",
+                "akses": "premium"
+            }
         ]
     },
     {
@@ -215,18 +557,54 @@
         "genre": "Action, Adventure",
         "rating": 8.5,
         "episodes": [
-            {"judul": "Episode 1 - Homecoming", "akses": "gratis"},
-            {"judul": "Episode 2 - The Akatsuki Makes a Move", "akses": "gratis"},
-            {"judul": "Episode 3 - The Results of Training", "akses": "premium"},
-            {"judul": "Episode 4 - The Jinchuriki of the Sand", "akses": "premium"},
-            {"judul": "Episode 5 - The Kazekage Stands Tall", "akses": "premium"},
-            {"judul": "Episode 6 - Mission Cleared", "akses": "premium"},
-            {"judul": "Episode 7 - Run, Kankuro", "akses": "premium"},
-            {"judul": "Episode 8 - Team Kakashi Deployed", "akses": "premium"},
-            {"judul": "Episode 9 - The Jinchuriki's Tears", "akses": "premium"},
-            {"judul": "Episode 10 - Sealing Jutsu", "akses": "premium"},
-            {"judul": "Episode 11 - The Medical Ninja", "akses": "premium"},
-            {"judul": "Episode 12 - Break In", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Homecoming",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - The Akatsuki Makes a Move",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - The Results of Training",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - The Jinchuriki of the Sand",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - The Kazekage Stands Tall",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Mission Cleared",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Run, Kankuro",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Team Kakashi Deployed",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - The Jinchuriki's Tears",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Sealing Jutsu",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - The Medical Ninja",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Break In",
+                "akses": "premium"
+            }
         ]
     },
     {
@@ -235,18 +613,54 @@
         "genre": "Adventure, Action",
         "rating": 8.9,
         "episodes": [
-            {"judul": "Episode 1 - Romance Dawn", "akses": "gratis"},
-            {"judul": "Episode 2 - The Great Swordsman", "akses": "gratis"},
-            {"judul": "Episode 3 - Morgan vs Luffy", "akses": "premium"},
-            {"judul": "Episode 4 - Luffy's Past", "akses": "premium"},
-            {"judul": "Episode 5 - A Terrifying Mysterious Power", "akses": "premium"},
-            {"judul": "Episode 6 - Desperate Situation", "akses": "premium"},
-            {"judul": "Episode 7 - Friends", "akses": "premium"},
-            {"judul": "Episode 8 - Showdown in the Town", "akses": "premium"},
-            {"judul": "Episode 9 - The Honorable Liar", "akses": "premium"},
-            {"judul": "Episode 10 - The Weirdest Guy Ever", "akses": "premium"},
-            {"judul": "Episode 11 - The Fake Pirate Crew", "akses": "premium"},
-            {"judul": "Episode 12 - Battle! Beast Tamer Mohji", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Romance Dawn",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - The Great Swordsman",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Morgan vs Luffy",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Luffy's Past",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - A Terrifying Mysterious Power",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Desperate Situation",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Friends",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Showdown in the Town",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - The Honorable Liar",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - The Weirdest Guy Ever",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - The Fake Pirate Crew",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Battle! Beast Tamer Mohji",
+                "akses": "premium"
+            }
         ]
     },
     {
@@ -255,18 +669,54 @@
         "genre": "Action, Fantasy",
         "rating": 7.9,
         "episodes": [
-            {"judul": "Episode 1 - Asta and Yuno", "akses": "gratis"},
-            {"judul": "Episode 2 - The Boys' Promise", "akses": "gratis"},
-            {"judul": "Episode 3 - To the Royal Capital", "akses": "premium"},
-            {"judul": "Episode 4 - The Magic Knight Entrance Exam", "akses": "premium"},
-            {"judul": "Episode 5 - The Path to the Wizard King", "akses": "premium"},
-            {"judul": "Episode 6 - The Black Bulls", "akses": "premium"},
-            {"judul": "Episode 7 - The World's Best King", "akses": "premium"},
-            {"judul": "Episode 8 - Go! Go! First Mission", "akses": "premium"},
-            {"judul": "Episode 9 - Beast", "akses": "premium"},
-            {"judul": "Episode 10 - Protect", "akses": "premium"},
-            {"judul": "Episode 11 - What Happened One Day", "akses": "premium"},
-            {"judul": "Episode 12 - The Wizard King", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Asta and Yuno",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - The Boys' Promise",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - To the Royal Capital",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - The Magic Knight Entrance Exam",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - The Path to the Wizard King",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - The Black Bulls",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - The World's Best King",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Go! Go! First Mission",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Beast",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Protect",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - What Happened One Day",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - The Wizard King",
+                "akses": "premium"
+            }
         ]
     },
     {
@@ -275,18 +725,54 @@
         "genre": "Isekai, Drama",
         "rating": 8.3,
         "episodes": [
-            {"judul": "Episode 1 - The End of the Beginning", "akses": "gratis"},
-            {"judul": "Episode 2 - Reunion with the Witch", "akses": "premium"},
-            {"judul": "Episode 3 - Starting Life", "akses": "premium"},
-            {"judul": "Episode 4 - The Happy Roswaal Mansion Family", "akses": "premium"},
-            {"judul": "Episode 5 - The Morning of Decision", "akses": "premium"},
-            {"judul": "Episode 6 - The Sound of Chains", "akses": "premium"},
-            {"judul": "Episode 7 - Natsuki Subaru’s Restart", "akses": "premium"},
-            {"judul": "Episode 8 - I Cried, Cried My Lungs Out", "akses": "premium"},
-            {"judul": "Episode 9 - The Meaning of Courage", "akses": "premium"},
-            {"judul": "Episode 10 - Fanatical Methods", "akses": "premium"},
-            {"judul": "Episode 11 - Rem", "akses": "premium"},
-            {"judul": "Episode 12 - Truth of Zero", "akses": "premium"}
+            {
+                "judul": "Episode 1 - The End of the Beginning",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Reunion with the Witch",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Starting Life",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - The Happy Roswaal Mansion Family",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - The Morning of Decision",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - The Sound of Chains",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Natsuki Subaru’s Restart",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - I Cried, Cried My Lungs Out",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - The Meaning of Courage",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Fanatical Methods",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Rem",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Truth of Zero",
+                "akses": "premium"
+            }
         ]
     },
     {
@@ -295,18 +781,54 @@
         "genre": "Action, Comedy",
         "rating": 8.5,
         "episodes": [
-            {"judul": "Episode 1 - Self-Proclaimed Psychic", "akses": "gratis"},
-            {"judul": "Episode 2 - Doubts About Youth", "akses": "gratis"},
-            {"judul": "Episode 3 - An Invitation to a Meeting", "akses": "premium"},
-            {"judul": "Episode 4 - Idiots Only Event", "akses": "premium"},
-            {"judul": "Episode 5 - Ochi’s Master Plan", "akses": "premium"},
-            {"judul": "Episode 6 - Discord", "akses": "premium"},
-            {"judul": "Episode 7 - Explosion", "akses": "premium"},
-            {"judul": "Episode 8 - The Older Brother Bows", "akses": "premium"},
-            {"judul": "Episode 9 - Claw ~7th Division~", "akses": "premium"},
-            {"judul": "Episode 10 - The Heinous Claw", "akses": "premium"},
-            {"judul": "Episode 11 - Master", "akses": "premium"},
-            {"judul": "Episode 12 - Mob and Reigen", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Self-Proclaimed Psychic",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Doubts About Youth",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - An Invitation to a Meeting",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Idiots Only Event",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Ochi’s Master Plan",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Discord",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Explosion",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - The Older Brother Bows",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Claw ~7th Division~",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - The Heinous Claw",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Master",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Mob and Reigen",
+                "akses": "premium"
+            }
         ]
     },
     {
@@ -315,18 +837,54 @@
         "genre": "Action, Dark Fantasy",
         "rating": 8.7,
         "episodes": [
-            {"judul": "Episode 1 - Dog & Chainsaw", "akses": "gratis"},
-            {"judul": "Episode 2 - Arrival in Tokyo", "akses": "premium"},
-            {"judul": "Episode 3 - Meowy’s Whereabouts", "akses": "premium"},
-            {"judul": "Episode 4 - Rescue", "akses": "premium"},
-            {"judul": "Episode 5 - Gun Devil", "akses": "premium"},
-            {"judul": "Episode 6 - Kill Denji", "akses": "premium"},
-            {"judul": "Episode 7 - The Taste of a Kiss", "akses": "premium"},
-            {"judul": "Episode 8 - Gunfire", "akses": "premium"},
-            {"judul": "Episode 9 - From Kyoto", "akses": "premium"},
-            {"judul": "Episode 10 - Bruised & Battered", "akses": "premium"},
-            {"judul": "Episode 11 - Mission Start", "akses": "premium"},
-            {"judul": "Episode 12 - Katana vs Chainsaw", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Dog & Chainsaw",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Arrival in Tokyo",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Meowy’s Whereabouts",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Rescue",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Gun Devil",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Kill Denji",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - The Taste of a Kiss",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Gunfire",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - From Kyoto",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Bruised & Battered",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Mission Start",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Katana vs Chainsaw",
+                "akses": "premium"
+            }
         ]
     },
     {
@@ -335,18 +893,54 @@
         "genre": "Sports, Psychological",
         "rating": 8.4,
         "episodes": [
-            {"judul": "Episode 1 - Dream", "akses": "gratis"},
-            {"judul": "Episode 2 - Monster", "akses": "gratis"},
-            {"judul": "Episode 3 - Soccer’s Zero", "akses": "premium"},
-            {"judul": "Episode 4 - Premonition", "akses": "premium"},
-            {"judul": "Episode 5 - To Be Reborn", "akses": "premium"},
-            {"judul": "Episode 6 - Geniuses and Average Joes", "akses": "premium"},
-            {"judul": "Episode 7 - Rush", "akses": "premium"},
-            {"judul": "Episode 8 - The Formula for Goals", "akses": "premium"},
-            {"judul": "Episode 9 - Awakening", "akses": "premium"},
-            {"judul": "Episode 10 - Just the Way It Is", "akses": "premium"},
-            {"judul": "Episode 11 - Final Moments", "akses": "premium"},
-            {"judul": "Episode 12 - The Final Match", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Dream",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Monster",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Soccer’s Zero",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Premonition",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - To Be Reborn",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Geniuses and Average Joes",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Rush",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - The Formula for Goals",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Awakening",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Just the Way It Is",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Final Moments",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - The Final Match",
+                "akses": "premium"
+            }
         ]
     },
     {
@@ -355,18 +949,54 @@
         "genre": "Drama, Mystery",
         "rating": 8.8,
         "episodes": [
-            {"judul": "Episode 1 - Mother and Children", "akses": "gratis"},
-            {"judul": "Episode 2 - Entertainment Industry", "akses": "premium"},
-            {"judul": "Episode 3 - Manga-Based Drama", "akses": "premium"},
-            {"judul": "Episode 4 - Ego", "akses": "premium"},
-            {"judul": "Episode 5 - Reality TV", "akses": "premium"},
-            {"judul": "Episode 6 - Butterfly", "akses": "premium"},
-            {"judul": "Episode 7 - Buzz", "akses": "premium"},
-            {"judul": "Episode 8 - First Concert", "akses": "premium"},
-            {"judul": "Episode 9 - Lies", "akses": "premium"},
-            {"judul": "Episode 10 - Stage Play", "akses": "premium"},
-            {"judul": "Episode 11 - True Identity", "akses": "premium"},
-            {"judul": "Episode 12 - Ends and Beginnings", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Mother and Children",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Entertainment Industry",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Manga-Based Drama",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Ego",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Reality TV",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Butterfly",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Buzz",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - First Concert",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Lies",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Stage Play",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - True Identity",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Ends and Beginnings",
+                "akses": "premium"
+            }
         ]
     },
     {
@@ -375,488 +1005,1182 @@
         "genre": "Action, Dark Fantasy",
         "rating": 8.1,
         "episodes": [
-            {"judul": "Episode 1 - The Death Row Convict", "akses": "gratis"},
-            {"judul": "Episode 2 - Weakness and Strength", "akses": "premium"},
-            {"judul": "Episode 3 - Lotus Eaters", "akses": "premium"},
-            {"judul": "Episode 4 - Hell and Paradise", "akses": "premium"},
-            {"judul": "Episode 5 - Samurai", "akses": "premium"},
-            {"judul": "Episode 6 - Heart and Reason", "akses": "premium"},
-            {"judul": "Episode 7 - Flowers and Monsters", "akses": "premium"},
-            {"judul": "Episode 8 - Brother and Sister", "akses": "premium"},
-            {"judul": "Episode 9 - God", "akses": "premium"},
-            {"judul": "Episode 10 - Yin and Yang", "akses": "premium"},
-            {"judul": "Episode 11 - Weakness", "akses": "premium"},
-            {"judul": "Episode 12 - Paradise Found", "akses": "premium"}
+            {
+                "judul": "Episode 1 - The Death Row Convict",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Weakness and Strength",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Lotus Eaters",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Hell and Paradise",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Samurai",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Heart and Reason",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Flowers and Monsters",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Brother and Sister",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - God",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Yin and Yang",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Weakness",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Paradise Found",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 21,
         "judul": "Horimiya",
         "genre": "Romance, Slice of Life",
         "rating": 8.2,
         "episodes": [
-            {"judul": "Episode 1 - A Piece of Chocolate", "akses": "gratis"},
-            {"judul": "Episode 2 - You Wear More Than One Face", "akses": "gratis"},
-            {"judul": "Episode 3 - That's Why It’s Okay", "akses": "premium"},
-            {"judul": "Episode 4 - Everybody Loves Somebody", "akses": "premium"},
-            {"judul": "Episode 5 - I Can’t Say It Out Loud", "akses": "premium"},
-            {"judul": "Episode 6 - This Summer’s Going to Be a Hot One", "akses": "premium"},
-            {"judul": "Episode 7 - You’re Here, I’m Here", "akses": "premium"},
-            {"judul": "Episode 8 - The Truth", "akses": "premium"},
-            {"judul": "Episode 9 - It’s Hard, Isn’t It?", "akses": "premium"},
-            {"judul": "Episode 10 - Until the Snow Melts", "akses": "premium"},
-            {"judul": "Episode 11 - This Isn’t Happening", "akses": "premium"},
-            {"judul": "Episode 12 - Hori-san and Miyamura-kun", "akses": "premium"}
+            {
+                "judul": "Episode 1 - A Piece of Chocolate",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - You Wear More Than One Face",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - That's Why It’s Okay",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Everybody Loves Somebody",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - I Can’t Say It Out Loud",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - This Summer’s Going to Be a Hot One",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - You’re Here, I’m Here",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - The Truth",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - It’s Hard, Isn’t It?",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Until the Snow Melts",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - This Isn’t Happening",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Hori-san and Miyamura-kun",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 22,
         "judul": "Spy x Family",
         "genre": "Action, Comedy",
         "rating": 8.5,
         "episodes": [
-            {"judul": "Episode 1 - Operation Strix", "akses": "gratis"},
-            {"judul": "Episode 2 - Secure a Wife", "akses": "gratis"},
-            {"judul": "Episode 3 - Prepare for the Interview", "akses": "premium"},
-            {"judul": "Episode 4 - The Prestigious School", "akses": "premium"},
-            {"judul": "Episode 5 - The Interview", "akses": "premium"},
-            {"judul": "Episode 6 - Friendship Scheme", "akses": "premium"},
-            {"judul": "Episode 7 - Target", "akses": "premium"},
-            {"judul": "Episode 8 - The Counter", "akses": "premium"},
-            {"judul": "Episode 9 - Show Off How Cool You Are", "akses": "premium"},
-            {"judul": "Episode 10 - The Great Dodgeball Plan", "akses": "premium"},
-            {"judul": "Episode 11 - Stella", "akses": "premium"},
-            {"judul": "Episode 12 - Penguin Park", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Operation Strix",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Secure a Wife",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Prepare for the Interview",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - The Prestigious School",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - The Interview",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Friendship Scheme",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Target",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - The Counter",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Show Off How Cool You Are",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - The Great Dodgeball Plan",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Stella",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Penguin Park",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 23,
         "judul": "Solo Leveling",
         "genre": "Action, Fantasy",
         "rating": 8.8,
         "episodes": [
-            {"judul": "Episode 1 - I'm Weak", "akses": "gratis"},
-            {"judul": "Episode 2 - D-Rank Hunter", "akses": "premium"},
-            {"judul": "Episode 3 - The Double Dungeon", "akses": "premium"},
-            {"judul": "Episode 4 - The System", "akses": "premium"},
-            {"judul": "Episode 5 - Strength", "akses": "premium"},
-            {"judul": "Episode 6 - Arise", "akses": "premium"},
-            {"judul": "Episode 7 - The Castle", "akses": "premium"},
-            {"judul": "Episode 8 - The Job Change", "akses": "premium"},
-            {"judul": "Episode 9 - The Dungeon", "akses": "premium"},
-            {"judul": "Episode 10 - The Shadow", "akses": "premium"},
-            {"judul": "Episode 11 - Reawakening", "akses": "premium"},
-            {"judul": "Episode 12 - Level Up", "akses": "premium"}
+            {
+                "judul": "Episode 1 - I'm Weak",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - D-Rank Hunter",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - The Double Dungeon",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - The System",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Strength",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Arise",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - The Castle",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - The Job Change",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - The Dungeon",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - The Shadow",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Reawakening",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Level Up",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 24,
         "judul": "Dr. Stone",
         "genre": "Adventure, Sci-Fi",
         "rating": 8.0,
         "episodes": [
-            {"judul": "Episode 1 - Stone World", "akses": "gratis"},
-            {"judul": "Episode 2 - King of the Stone World", "akses": "gratis"},
-            {"judul": "Episode 3 - Weapons of Science", "akses": "premium"},
-            {"judul": "Episode 4 - Fire the Smoke Signal", "akses": "premium"},
-            {"judul": "Episode 5 - Stone World the Beginning", "akses": "premium"},
-            {"judul": "Episode 6 - Two Nations of the Stone World", "akses": "premium"},
-            {"judul": "Episode 7 - Hotline", "akses": "premium"},
-            {"judul": "Episode 8 - Stone Road", "akses": "premium"},
-            {"judul": "Episode 9 - Let There Be the Light", "akses": "premium"},
-            {"judul": "Episode 10 - A Flimsy Alliance", "akses": "premium"},
-            {"judul": "Episode 11 - Clear World", "akses": "premium"},
-            {"judul": "Episode 12 - Buddies Back to Back", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Stone World",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - King of the Stone World",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Weapons of Science",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Fire the Smoke Signal",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Stone World the Beginning",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Two Nations of the Stone World",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Hotline",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Stone Road",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Let There Be the Light",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - A Flimsy Alliance",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Clear World",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Buddies Back to Back",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 25,
         "judul": "Mushoku Tensei",
         "genre": "Fantasy, Isekai",
         "rating": 8.7,
         "episodes": [
-            {"judul": "Episode 1 - Jobless Reincarnation", "akses": "gratis"},
-            {"judul": "Episode 2 - Master", "akses": "premium"},
-            {"judul": "Episode 3 - Friend", "akses": "premium"},
-            {"judul": "Episode 4 - Emergency Family Meeting", "akses": "premium"},
-            {"judul": "Episode 5 - A Young Lady and Violence", "akses": "premium"},
-            {"judul": "Episode 6 - A Day Off", "akses": "premium"},
-            {"judul": "Episode 7 - The First Job", "akses": "premium"},
-            {"judul": "Episode 8 - Turning Point", "akses": "premium"},
-            {"judul": "Episode 9 - Chance Encounter", "akses": "premium"},
-            {"judul": "Episode 10 - The Value of a Life", "akses": "premium"},
-            {"judul": "Episode 11 - Children", "akses": "premium"},
-            {"judul": "Episode 12 - Memories", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Jobless Reincarnation",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Master",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Friend",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Emergency Family Meeting",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - A Young Lady and Violence",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - A Day Off",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - The First Job",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Turning Point",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Chance Encounter",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - The Value of a Life",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Children",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Memories",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 26,
         "judul": "Noragami",
         "genre": "Adventure, Supernatural",
         "rating": 8.0,
         "episodes": [
-            {"judul": "Episode 1 - A Housecat, a Stray God", "akses": "gratis"},
-            {"judul": "Episode 2 - Snow-like", "akses": "premium"},
-            {"judul": "Episode 3 - Bidden Calamity", "akses": "premium"},
-            {"judul": "Episode 4 - Where Happiness Lies", "akses": "premium"},
-            {"judul": "Episode 5 - Borderline", "akses": "premium"},
-            {"judul": "Episode 6 - Scary Person", "akses": "premium"},
-            {"judul": "Episode 7 - Uncertainty", "akses": "premium"},
-            {"judul": "Episode 8 - Over the Line", "akses": "premium"},
-            {"judul": "Episode 9 - Name", "akses": "premium"},
-            {"judul": "Episode 10 - Regalia", "akses": "premium"},
-            {"judul": "Episode 11 - Abandoned God", "akses": "premium"},
-            {"judul": "Episode 12 - God of Calamity", "akses": "premium"}
+            {
+                "judul": "Episode 1 - A Housecat, a Stray God",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Snow-like",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Bidden Calamity",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Where Happiness Lies",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Borderline",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Scary Person",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Uncertainty",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Over the Line",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Name",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Regalia",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Abandoned God",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - God of Calamity",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 27,
         "judul": "Kaguya-sama: Love Is War",
         "genre": "Romance, Comedy",
         "rating": 8.6,
         "episodes": [
-            {"judul": "Episode 1 - The Student Council", "akses": "gratis"},
-            {"judul": "Episode 2 - The Affection", "akses": "premium"},
-            {"judul": "Episode 3 - Miyuki Shirogane Wants to Be Confessed To", "akses": "premium"},
-            {"judul": "Episode 4 - Kaguya Wants to Go Home", "akses": "premium"},
-            {"judul": "Episode 5 - Kaguya Wants Her to Say It", "akses": "premium"},
-            {"judul": "Episode 6 - Nerves", "akses": "premium"},
-            {"judul": "Episode 7 - Spring Break", "akses": "premium"},
-            {"judul": "Episode 8 - Shirogane’s Culture Festival", "akses": "premium"},
-            {"judul": "Episode 9 - Body Language", "akses": "premium"},
-            {"judul": "Episode 10 - Hearts", "akses": "premium"},
-            {"judul": "Episode 11 - Love", "akses": "premium"},
-            {"judul": "Episode 12 - Confession", "akses": "premium"}
+            {
+                "judul": "Episode 1 - The Student Council",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - The Affection",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Miyuki Shirogane Wants to Be Confessed To",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Kaguya Wants to Go Home",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Kaguya Wants Her to Say It",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Nerves",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Spring Break",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Shirogane’s Culture Festival",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Body Language",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Hearts",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Love",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Confession",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 28,
         "judul": "Erased (Boku dake ga Inai Machi)",
         "genre": "Mystery, Supernatural",
         "rating": 8.4,
         "episodes": [
-            {"judul": "Episode 1 - Flashing Before My Eyes", "akses": "gratis"},
-            {"judul": "Episode 2 - Palm of the Hand", "akses": "premium"},
-            {"judul": "Episode 3 - Birthmark", "akses": "premium"},
-            {"judul": "Episode 4 - Accomplishment", "akses": "premium"},
-            {"judul": "Episode 5 - Getaway", "akses": "premium"},
-            {"judul": "Episode 6 - Grim Reaper", "akses": "premium"},
-            {"judul": "Episode 7 - Out of Control", "akses": "premium"},
-            {"judul": "Episode 8 - Spiral", "akses": "premium"},
-            {"judul": "Episode 9 - Graduation", "akses": "premium"},
-            {"judul": "Episode 10 - Joy", "akses": "premium"},
-            {"judul": "Episode 11 - Future", "akses": "premium"},
-            {"judul": "Episode 12 - Treasure", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Flashing Before My Eyes",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Palm of the Hand",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Birthmark",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Accomplishment",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Getaway",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Grim Reaper",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Out of Control",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Spiral",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Graduation",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Joy",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Future",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Treasure",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 29,
         "judul": "Steins;Gate",
         "genre": "Sci-Fi, Thriller",
         "rating": 9.1,
         "episodes": [
-            {"judul": "Episode 1 - Prologue of the Beginning and Ending", "akses": "gratis"},
-            {"judul": "Episode 2 - Time Travel Paranoia", "akses": "premium"},
-            {"judul": "Episode 3 - Parallel Process", "akses": "premium"},
-            {"judul": "Episode 4 - Interpreter", "akses": "premium"},
-            {"judul": "Episode 5 - Starmine", "akses": "premium"},
-            {"judul": "Episode 6 - Butterfly Effect", "akses": "premium"},
-            {"judul": "Episode 7 - Divergence", "akses": "premium"},
-            {"judul": "Episode 8 - Chaos Theory Homeostasis", "akses": "premium"},
-            {"judul": "Episode 9 - Chaos Theory Homeostasis II", "akses": "premium"},
-            {"judul": "Episode 10 - Collapsing", "akses": "premium"},
-            {"judul": "Episode 11 - The Beginning", "akses": "premium"},
-            {"judul": "Episode 12 - Dogma", "akses": "premium"}
+            {
+                "judul": "Episode 1 - Prologue of the Beginning and Ending",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Time Travel Paranoia",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - Parallel Process",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Interpreter",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Starmine",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - Butterfly Effect",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Divergence",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Chaos Theory Homeostasis",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Chaos Theory Homeostasis II",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Collapsing",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - The Beginning",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - Dogma",
+                "akses": "premium"
+            }
         ]
     },
-
     {
         "id": 30,
         "judul": "The Quintessential Quintuplets",
         "genre": "Romance, Comedy",
         "rating": 7.7,
         "episodes": [
-            {"judul": "Episode 1 - The 5th Girl", "akses": "gratis"},
-            {"judul": "Episode 2 - Rooftop Confession", "akses": "premium"},
-            {"judul": "Episode 3 - My Name Is", "akses": "premium"},
-            {"judul": "Episode 4 - The Battle Begins", "akses": "premium"},
-            {"judul": "Episode 5 - Rooftop Scene", "akses": "premium"},
-            {"judul": "Episode 6 - What's Up With You?", "akses": "premium"},
-            {"judul": "Episode 7 - Loner Life", "akses": "premium"},
-            {"judul": "Episode 8 - Summer Memories", "akses": "premium"},
-            {"judul": "Episode 9 - Sisters", "akses": "premium"},
-            {"judul": "Episode 10 - Confusion", "akses": "premium"},
-            {"judul": "Episode 11 - Surprise", "akses": "premium"},
-            {"judul": "Episode 12 - The Last Festival", "akses": "premium"}
+            {
+                "judul": "Episode 1 - The 5th Girl",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Rooftop Confession",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 3 - My Name Is",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - The Battle Begins",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Rooftop Scene",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 6 - What's Up With You?",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 7 - Loner Life",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 8 - Summer Memories",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 9 - Sisters",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 10 - Confusion",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 11 - Surprise",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 12 - The Last Festival",
+                "akses": "premium"
+            }
         ]
     },
-  {
-    "id": 31,
-    "judul": "The Magic Chef of Fire and Ice",
-    "genre": "Fantasy, Action, Adventure",
-    "rating": 7.9,
-    "episodes": [
-      {"judul": "Episode 1 - Reborn Chef", "akses": "gratis"},
-      {"judul": "Episode 2 - Fire and Ice Power", "akses": "gratis"},
-      {"judul": "Episode 3 - Culinary Duel", "akses": "premium"},
-      {"judul": "Episode 4 - Secret Techniques", "akses": "premium"},
-      {"judul": "Episode 5 - Rising Fame", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 32,
-    "judul": "Spiritpact",
-    "genre": "Supernatural, Action",
-    "rating": 7.4,
-    "episodes": [
-      {"judul": "Episode 1 - Unexpected Pact", "akses": "gratis"},
-      {"judul": "Episode 2 - Ghost Encounter", "akses": "gratis"},
-      {"judul": "Episode 3 - Exorcist Power", "akses": "premium"},
-      {"judul": "Episode 4 - Spirit Hunter", "akses": "premium"},
-      {"judul": "Episode 5 - Fate Bound", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 33,
-    "judul": "Rakshasa Street",
-    "genre": "Action, Supernatural",
-    "rating": 8.0,
-    "episodes": [
-      {"judul": "Episode 1 - Rakshasa Town", "akses": "gratis"},
-      {"judul": "Episode 2 - Guardian Spirits", "akses": "gratis"},
-      {"judul": "Episode 3 - First Battle", "akses": "premium"},
-      {"judul": "Episode 4 - Dark Secrets", "akses": "premium"},
-      {"judul": "Episode 5 - Power Within", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 34,
-    "judul": "Jade Dynasty (Zhu Xian)",
-    "genre": "Fantasy, Adventure",
-    "rating": 7.8,
-    "episodes": [
-      {"judul": "Episode 1 - Fate's Beginning", "akses": "gratis"},
-      {"judul": "Episode 2 - Ancient Sect", "akses": "gratis"},
-      {"judul": "Episode 3 - Forbidden Training", "akses": "premium"},
-      {"judul": "Episode 4 - Demon Hunt", "akses": "premium"},
-      {"judul": "Episode 5 - Path of Cultivation", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 35,
-    "judul": "The Silver Guardian",
-    "genre": "Game, Action, Adventure",
-    "rating": 7.1,
-    "episodes": [
-      {"judul": "Episode 1 - Into the Game World", "akses": "gratis"},
-      {"judul": "Episode 2 - Guardian Awakens", "akses": "gratis"},
-      {"judul": "Episode 3 - Tower of Trials", "akses": "premium"},
-      {"judul": "Episode 4 - Pixel War", "akses": "premium"},
-      {"judul": "Episode 5 - Protect Her", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 36,
-    "judul": "The Emperor’s Strategy",
-    "genre": "Historical, Political, Drama",
-    "rating": 8.2,
-    "episodes": [
-      {"judul": "Episode 1 - Rise of the Emperor", "akses": "gratis"},
-      {"judul": "Episode 2 - Hidden Plot", "akses": "gratis"},
-      {"judul": "Episode 3 - War of Minds", "akses": "premium"},
-      {"judul": "Episode 4 - Royal Schemes", "akses": "premium"},
-      {"judul": "Episode 5 - Empire in Danger", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 37,
-    "judul": "Heavenly Sword and Dragon Slaying Saber",
-    "genre": "Action, Wuxia",
-    "rating": 7.7,
-    "episodes": [
-      {"judul": "Episode 1 - Wudang Legacy", "akses": "gratis"},
-      {"judul": "Episode 2 - Destiny of the Saber", "akses": "gratis"},
-      {"judul": "Episode 3 - Sect Crisis", "akses": "premium"},
-      {"judul": "Episode 4 - Hidden Master", "akses": "premium"},
-      {"judul": "Episode 5 - Duel on the Mountain", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 38,
-    "judul": "The Guardian of the Sacred Spirit",
-    "genre": "Fantasy, Adventure",
-    "rating": 8.1,
-    "episodes": [
-      {"judul": "Episode 1 - Forbidden Spirit", "akses": "gratis"},
-      {"judul": "Episode 2 - The Bodyguard", "akses": "gratis"},
-      {"judul": "Episode 3 - The Pursuit", "akses": "premium"},
-      {"judul": "Episode 4 - Sacred Power", "akses": "premium"},
-      {"judul": "Episode 5 - Final Confrontation", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 39,
-    "judul": "Cinderella Chef",
-    "genre": "Romance, Comedy, Cooking",
-    "rating": 7.9,
-    "episodes": [
-      {"judul": "Episode 1 - Chef Time Travel", "akses": "gratis"},
-      {"judul": "Episode 2 - New Life Begins", "akses": "gratis"},
-      {"judul": "Episode 3 - Cooking Battle", "akses": "premium"},
-      {"judul": "Episode 4 - Falling in Love", "akses": "premium"},
-      {"judul": "Episode 5 - Behind the Recipe", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 40,
-    "judul": "Wind Guardian",
-    "genre": "Action, Fantasy",
-    "rating": 7.6,
-    "episodes": [
-      {"judul": "Episode 1 - Wandering Warrior", "akses": "gratis"},
-      {"judul": "Episode 2 - Elemental Wind", "akses": "gratis"},
-      {"judul": "Episode 3 - Forest Duel", "akses": "premium"},
-      {"judul": "Episode 4 - Spirit Awakening", "akses": "premium"},
-      {"judul": "Episode 5 - Guardian's Path", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 41,
-    "judul": "Crystal Sky of Yesterday",
-    "genre": "Romance, Drama",
-    "rating": 8.4,
-    "episodes": [
-      {"judul": "Episode 1 - Childhood Days", "akses": "gratis"},
-      {"judul": "Episode 2 - First Love", "akses": "gratis"},
-      {"judul": "Episode 3 - Growing Apart", "akses": "premium"},
-      {"judul": "Episode 4 - Reunion", "akses": "premium"},
-      {"judul": "Episode 5 - Yesterday's Sky", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 42,
-    "judul": "The God of High School Chinese Version",
-    "genre": "Action, Martial Arts",
-    "rating": 7.3,
-    "episodes": [
-      {"judul": "Episode 1 - Tournament Begins", "akses": "gratis"},
-      {"judul": "Episode 2 - Strongest Fighter", "akses": "gratis"},
-      {"judul": "Episode 3 - Secret Power", "akses": "premium"},
-      {"judul": "Episode 4 - Unseen Technique", "akses": "premium"},
-      {"judul": "Episode 5 - Final Fight", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 43,
-    "judul": "Against the Sky Supreme",
-    "genre": "Fantasy, Cultivation",
-    "rating": 8.0,
-    "episodes": [
-      {"judul": "Episode 1 - Heaven Defying Start", "akses": "gratis"},
-      {"judul": "Episode 2 - Spirit Awakening", "akses": "gratis"},
-      {"judul": "Episode 3 - Breakthrough", "akses": "premium"},
-      {"judul": "Episode 4 - Sect Turmoil", "akses": "premium"},
-      {"judul": "Episode 5 - Supreme Path", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 44,
-    "judul": "Swallowed Star",
-    "genre": "Sci-Fi, Action",
-    "rating": 8.5,
-    "episodes": [
-      {"judul": "Episode 1 - Meteorite Era", "akses": "gratis"},
-      {"judul": "Episode 2 - Awakening Ability", "akses": "gratis"},
-      {"judul": "Episode 3 - Monster Raid", "akses": "premium"},
-      {"judul": "Episode 4 - Training Camp", "akses": "premium"},
-      {"judul": "Episode 5 - Rise of Luo Feng", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 45,
-    "judul": "Breakers of Dawn",
-    "genre": "Sci-Fi, Adventure",
-    "rating": 7.8,
-    "episodes": [
-      {"judul": "Episode 1 - Planetary Disaster", "akses": "gratis"},
-      {"judul": "Episode 2 - Artificial Life", "akses": "gratis"},
-      {"judul": "Episode 3 - Hidden Technology", "akses": "premium"},
-      {"judul": "Episode 4 - Battle for Humanity", "akses": "premium"},
-      {"judul": "Episode 5 - Last Resistance", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 46,
-    "judul": "Dragon's Disciple",
-    "genre": "Action, Martial Arts",
-    "rating": 7.7,
-    "episodes": [
-      {"judul": "Episode 1 - Dragon Bloodline", "akses": "gratis"},
-      {"judul": "Episode 2 - Enter the Sect", "akses": "gratis"},
-      {"judul": "Episode 3 - First Training", "akses": "premium"},
-      {"judul": "Episode 4 - Rival Clash", "akses": "premium"},
-      {"judul": "Episode 5 - Dragon's Awakening", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 47,
-    "judul": "The Island of Siliang",
-    "genre": "Fantasy, Adventure",
-    "rating": 8.6,
-    "episodes": [
-      {"judul": "Episode 1 - The Forbidden Island", "akses": "gratis"},
-      {"judul": "Episode 2 - Spirit of the Mountains", "akses": "gratis"},
-      {"judul": "Episode 3 - Ancient Lineage", "akses": "premium"},
-      {"judul": "Episode 4 - Unseen Threat", "akses": "premium"},
-      {"judul": "Episode 5 - Rise of the Heirs", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 48,
-    "judul": "The King's Avatar: For the Glory",
-    "genre": "Action, Game",
-    "rating": 8.7,
-    "episodes": [
-      {"judul": "Episode 1 - The Beginning of Glory", "akses": "gratis"},
-      {"judul": "Episode 2 - First Championship", "akses": "gratis"},
-      {"judul": "Episode 3 - Rival Encounter", "akses": "premium"},
-      {"judul": "Episode 4 - Road to Victory", "akses": "premium"},
-      {"judul": "Episode 5 - Legends Rise", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 49,
-    "judul": "Lord of the Mysteries (Donghua Version)",
-    "genre": "Mystery, Supernatural, Steampunk",
-    "rating": 9.1,
-    "episodes": [
-      {"judul": "Episode 1 - The Fool", "akses": "gratis"},
-      {"judul": "Episode 2 - Tarot Club", "akses": "gratis"},
-      {"judul": "Episode 3 - Beyonder Path", "akses": "premium"},
-      {"judul": "Episode 4 - Hidden Cult", "akses": "premium"},
-      {"judul": "Episode 5 - Sequence Power", "akses": "premium"}
-    ]
-  },
-  {
-    "id": 50,
-    "judul": "Dragon Raja",
-    "genre": "Fantasy, Action, Adventure",
-    "rating": 8.4,
-    "episodes": [
-      {"judul": "Episode 1 - Awakening of the Hybrid", "akses": "gratis"},
-      {"judul": "Episode 2 - Cassell Academy", "akses": "gratis"},
-      {"judul": "Episode 3 - Dragon Hunt", "akses": "premium"},
-      {"judul": "Episode 4 - Forbidden Blood", "akses": "premium"},
-      {"judul": "Episode 5 - Clash of Dragons", "akses": "premium"}
-    ]
-  }
+    {
+        "id": 31,
+        "judul": "The Magic Chef of Fire and Ice",
+        "genre": "Fantasy, Action, Adventure",
+        "rating": 7.9,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Reborn Chef",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Fire and Ice Power",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Culinary Duel",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Secret Techniques",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Rising Fame",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "judul": "Spiritpact",
+        "genre": "Supernatural, Action",
+        "rating": 7.4,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Unexpected Pact",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Ghost Encounter",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Exorcist Power",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Spirit Hunter",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Fate Bound",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "judul": "Rakshasa Street",
+        "genre": "Action, Supernatural",
+        "rating": 8.0,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Rakshasa Town",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Guardian Spirits",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - First Battle",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Dark Secrets",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Power Within",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "judul": "Jade Dynasty (Zhu Xian)",
+        "genre": "Fantasy, Adventure",
+        "rating": 7.8,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Fate's Beginning",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Ancient Sect",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Forbidden Training",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Demon Hunt",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Path of Cultivation",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "judul": "The Silver Guardian",
+        "genre": "Game, Action, Adventure",
+        "rating": 7.1,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Into the Game World",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Guardian Awakens",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Tower of Trials",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Pixel War",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Protect Her",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "judul": "The Emperor’s Strategy",
+        "genre": "Historical, Political, Drama",
+        "rating": 8.2,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Rise of the Emperor",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Hidden Plot",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - War of Minds",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Royal Schemes",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Empire in Danger",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "judul": "Heavenly Sword and Dragon Slaying Saber",
+        "genre": "Action, Wuxia",
+        "rating": 7.7,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Wudang Legacy",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Destiny of the Saber",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Sect Crisis",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Hidden Master",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Duel on the Mountain",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "judul": "The Guardian of the Sacred Spirit",
+        "genre": "Fantasy, Adventure",
+        "rating": 8.1,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Forbidden Spirit",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - The Bodyguard",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - The Pursuit",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Sacred Power",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Final Confrontation",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "judul": "Cinderella Chef",
+        "genre": "Romance, Comedy, Cooking",
+        "rating": 7.9,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Chef Time Travel",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - New Life Begins",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Cooking Battle",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Falling in Love",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Behind the Recipe",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "judul": "Wind Guardian",
+        "genre": "Action, Fantasy",
+        "rating": 7.6,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Wandering Warrior",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Elemental Wind",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Forest Duel",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Spirit Awakening",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Guardian's Path",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "judul": "Crystal Sky of Yesterday",
+        "genre": "Romance, Drama",
+        "rating": 8.4,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Childhood Days",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - First Love",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Growing Apart",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Reunion",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Yesterday's Sky",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "judul": "The God of High School Chinese Version",
+        "genre": "Action, Martial Arts",
+        "rating": 7.3,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Tournament Begins",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Strongest Fighter",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Secret Power",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Unseen Technique",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Final Fight",
+                "akses": "premium"
+            },
+            {
+                "judul": "Barudak God",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "judul": "Against the Sky Supreme",
+        "genre": "Fantasy, Cultivation",
+        "rating": 8.0,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Heaven Defying Start",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Spirit Awakening",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Breakthrough",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Sect Turmoil",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Supreme Path",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "judul": "Swallowed Star",
+        "genre": "Sci-Fi, Action",
+        "rating": 8.5,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Meteorite Era",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Awakening Ability",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Monster Raid",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Training Camp",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Rise of Luo Feng",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "judul": "Breakers of Dawn",
+        "genre": "Sci-Fi, Adventure",
+        "rating": 7.8,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Planetary Disaster",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Artificial Life",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Hidden Technology",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Battle for Humanity",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Last Resistance",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "judul": "Dragon's Disciple",
+        "genre": "Action, Martial Arts",
+        "rating": 7.7,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Dragon Bloodline",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Enter the Sect",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - First Training",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Rival Clash",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Dragon's Awakening",
+                "akses": "premium"
+            },
+            {
+                "judul": "Barudak Dragon",
+                "akses": "gratis"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "judul": "The Island of Siliang",
+        "genre": "Fantasy, Adventure",
+        "rating": 8.6,
+        "episodes": [
+            {
+                "judul": "Episode 1 - The Forbidden Island",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Spirit of the Mountains",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Ancient Lineage",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Unseen Threat",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Rise of the Heirs",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "judul": "The King's Avatar: For the Glory",
+        "genre": "Action, Game",
+        "rating": 8.7,
+        "episodes": [
+            {
+                "judul": "Episode 1 - The Beginning of Glory",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - First Championship",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Rival Encounter",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Road to Victory",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Legends Rise",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "judul": "Lord of the Mysteries (Donghua Version)",
+        "genre": "Mystery, Supernatural, Steampunk",
+        "rating": 9.1,
+        "episodes": [
+            {
+                "judul": "Episode 1 - The Fool",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Tarot Club",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Beyonder Path",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Hidden Cult",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Sequence Power",
+                "akses": "premium"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "judul": "Dragon Raja",
+        "genre": "Fantasy, Action, Adventure",
+        "rating": 8.4,
+        "episodes": [
+            {
+                "judul": "Episode 1 - Awakening of the Hybrid",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 2 - Cassell Academy",
+                "akses": "gratis"
+            },
+            {
+                "judul": "Episode 3 - Dragon Hunt",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 4 - Forbidden Blood",
+                "akses": "premium"
+            },
+            {
+                "judul": "Episode 5 - Clash of Dragons",
+                "akses": "premium"
+            }
+        ]
+    }
 ]

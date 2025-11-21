@@ -2,16 +2,44 @@
     {
         "username": "admin",
         "password": "admin123",
-        "role": "admin"
+        "role": "admin",
+        "history": []
     },
     {
         "username": "noval",
         "password": "079",
-        "role": "user"
+        "role": "pro",
+        "history": [
+            {
+                "anime": "Attack on Titan",
+                "episode": "Barudak Titan"
+            },
+            {
+                "anime": "Lord of the Mysteries (Donghua Version)",
+                "episode": "Episode 1 - The Fool"
+            }
+        ]
     },
     {
         "username": "syamil",
-        "password": "ppp",
-        "role": "user"
+        "password": "073",
+        "role": "user",
+        "history": [
+            {
+                "anime": "Attack on Titan",
+                "episode": "Barudak Titan"
+            }
+        ]
+    },
+    {
+        "username": "lily",
+        "password": "089",
+        "role": "user",
+        "history": [
+            {
+                "anime": "Dragon's Disciple",
+                "episode": "Barudak Dragon"
+            }
+        ]
     }
 ]
