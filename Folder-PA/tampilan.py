@@ -87,19 +87,78 @@ def rekomendasi_hari_ini():
 
 
 def tonton_anime(user_role):
-    anime_crud.tampilkan_anime()
-    try:
-        pilih = int(input("Pilih ID anime yang ingin ditonton: "))
-    except ValueError:
-        print("Input tidak valid.\n")
-        return
-    anime = next((a for a in penyimpanan.data_anime if a["id"] == pilih), None)
-    if not anime:
-        print("Anime tidak ditemukan.\n")
-        return
-    print(f"\n🎬 {anime['judul']}")
-    for i, ep in enumerate(anime.get("episodes", []), start=1):
-        if ep.get("akses") == "premium" and user_role != "pro":
-            print(f"{i}. {ep['judul']} (Terkunci 🔒)")
+    data = penyimpanan.data_anime[:]  # Copy data
+    halaman = 1
+    per_halaman = 5
+    keyword = ""
+
+    while True:
+        # FILTER SEARCH
+        if keyword:
+            tampil = [a for a in data if keyword.lower() in a["judul"].lower()]
         else:
-            print(f"{i}. {ep['judul']}")
+            tampil = data
+
+        # HITUNG PAGINATION
+        total = len(tampil)
+        total_halaman = (total + per_halaman - 1) // per_halaman
+
+        if halaman < 1:
+            halaman = 1
+        if halaman > total_halaman:
+            halaman = total_halaman
+
+        start = (halaman - 1) * per_halaman
+        end = start + per_halaman
+
+        print("\n=== LIST ANIME ===")
+        print(f"Halaman {halaman}/{total_halaman} | Total: {total} anime")
+        print(f"Search: '{keyword}'\n")
+
+        # TAMPILKAN DATA SESUAI PAGINATION
+        for a in tampil[start:end]:
+            print(f"{a['id']}. {a['judul']} ({a['genre']}) - Rating {a['rating']}")
+
+        print("\n(N) Next | (P) Prev | (S) Search | (Q) Kembali")
+        print("(ID) Pilih anime untuk ditonton")
+
+        pilih = input("→ ").strip().lower()
+
+        # --- NAVIGASI PAGINATION ---
+        if pilih == "n":
+            halaman += 1
+        elif pilih == "p":
+            halaman -= 1
+
+        # --- MENU SEARCH REAL-TIME ---
+        elif pilih == "s":
+            keyword = input("Masukkan kata pencarian: ").strip()
+            halaman = 1  # Reset ke halaman pertama saat search
+
+        # --- KELUAR ---
+        elif pilih == "q":
+            break
+
+        # --- PILIH ANIME ---
+        elif pilih.isdigit():
+            pilih = int(pilih)
+            anime = next((a for a in tampil if a["id"] == pilih), None)
+            
+            if not anime:
+                print("❌ Anime tidak ditemukan dalam hasil.")
+                continue
+
+            print(f"\n🎬 {anime['judul']}")
+            for i, ep in enumerate(anime.get("episodes", []), start=1):
+                if ep.get("akses") == "premium" and user_role != "pro":
+                    print(f"{i}. {ep['judul']} (Terkunci 🔒)")
+                else:
+                    print(f"{i}. {ep['judul']}")
+            print()
+            input("Tekan Enter untuk kembali...")
+        else:
+            print("❌ Input tidak valid.")
+
+
+
+
