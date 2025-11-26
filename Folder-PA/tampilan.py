@@ -5,8 +5,8 @@ import sys
 from InquirerPy import inquirer
 
 import penyimpanan
-import anime_crud
-import account_crud
+import anime_crud # Dipanggil di tonton_anime dan menu admin
+import account_crud # Dipanggil di menu admin
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -44,6 +44,8 @@ def rekomendasi():
         print("⚠️ Kesalahan Data: Struktur data anime tidak lengkap.")
     except ValueError:
         print("⚠️ Tidak dapat menampilkan rekomendasi.")
+    except Exception:
+        pass
 
 def menu_tampil_anime(data):
     halaman = 1
@@ -78,41 +80,40 @@ def menu_tampil_anime(data):
             for a in page_items:
                 print(f"{a['id']}. {a['judul']} ({a['genre']}) - Rating {a['rating']}")
 
-            print("\n(N) Next | (P) Prev | (S) Search | (Q) Kembali")
-            print("Pilih Anime (Masukkan ID Anime)")
+            choices = ["(N) Next", "(P) Prev", "(S) Search", "(Q) Kembali"]
+            # Menambahkan ID Anime yang ditampilkan sebagai pilihan cepat
+            choices.extend([f"ID: {a['id']} ({a['judul']})" for a in page_items])
 
-            pilih = input(": ").strip().lower()
+            pilih = inquirer.select(
+                message="\nNavigasi atau Pilih Anime:",
+                choices=choices
+            ).execute().lower()
 
-            if pilih == "n":
+            if pilih.startswith("(n)"):
                 if halaman < total_halaman:
                     halaman += 1
                 else:
                     print("Sudah di halaman terakhir.")
-                    pause(2, "Kembali ke daftar anime...")
-            elif pilih == "p":
+                    pause(1)
+            elif pilih.startswith("(p)"):
                 if halaman > 1:
                     halaman -= 1
                 else:
                     print("Sudah di halaman pertama.")
-                    pause(2, "Kembali ke daftar anime...")
-            elif pilih == "s":
+                    pause(1)
+            elif pilih.startswith("(s)"):
                 keyword = input("Masukkan kata pencarian: ").strip()
                 halaman = 1
-            elif pilih == "q":
+            elif pilih.startswith("(q)"):
                 return None
-            elif pilih.isdigit():
-                pilih_id = int(pilih)
-                page_ids = [a["id"] for a in page_items]
-
-                if pilih_id in page_ids:
-                    return pilih_id
-                else:
-                    print("Anime tidak ada di halaman ini. Silakan pilih ID yang ditampilkan.")
-                    pause(2, "Kembali ke daftar anime...")
-            else:
-                print("Input tidak valid.")
-                pause(2, "Kembali ke daftar anime...")
-                
+            elif pilih.startswith("id:"):
+                pilih_id = int(pilih.split(":")[1].split("(")[0].strip())
+                return pilih_id
+            
+        except KeyboardInterrupt:
+            print("\nOperasi dibatalkan.\n")
+            pause(2)
+            return None
         except ZeroDivisionError:
             print("❌ Kesalahan internal: Pembagian per halaman bermasalah.")
             pause(3, "Kembali...")
@@ -124,11 +125,11 @@ def menu_tampil_anime(data):
 
 def admin_lihat_anime():
     while True:
-        anime_id = menu_tampil_anime(penyimpanan.data_anime)
-        if anime_id is None:
-            break
-        
         try:
+            anime_id = menu_tampil_anime(penyimpanan.data_anime)
+            if anime_id is None:
+                break
+            
             anime = next((a for a in penyimpanan.data_anime if a["id"] == anime_id), None)
             if anime is None:
                 print("Anime tidak ditemukan.\n")
@@ -142,10 +143,14 @@ def admin_lihat_anime():
                 print("Anime ini belum memiliki episode.")
             
             pause(2, "Kembali ke daftar anime...")
+            
+        except KeyboardInterrupt:
+            print("\nOperasi dibatalkan.\n")
+            pause(2)
+            break
         except Exception as e:
             print(f"❌ Kesalahan saat melihat detail anime: {e}")
             pause(3, "Kembali...")
-
 
 def menu_admin():
     while True:
@@ -232,34 +237,40 @@ def tonton_anime(user):
             pause(2, "Kembali ke menu...")
             continue
 
-        print(f"\n{anime['judul']}")
-        for i, ep in enumerate(anime.get("episodes", []), start=1):
-            if ep.get("akses") == "premium" and user.get("role") != "pro":
-                print(f"{i}. {ep['judul']} (Terkunci 🔒)")
+        choices_ep = []
+        episodes = anime.get("episodes", [])
+        
+        for i, ep in enumerate(episodes, start=1):
+            judul = ep.get('judul', 'Episode Tidak Diketahui')
+            akses = ep.get('akses', 'gratis')
+            
+            if akses == "premium" and user.get("role") != "pro":
+                choices_ep.append({"name": f"{i}. {judul} (Terkunci 🔒)", "value": i, "enabled": False})
             else:
-                print(f"{i}. {ep['judul']}")
+                choices_ep.append({"name": f"{i}. {judul}", "value": i})
+
+        choices_ep.append({"name": "Batal/Kembali", "value": 0})
+
+        if not episodes:
+            print("Anime ini belum memiliki episode yang bisa ditonton.\n")
+            pause(2)
+            continue
 
         try:
-            pilih_ep = int(input("Pilih episode yang ingin ditonton (0 untuk kembali): "))
-        except ValueError:
-            print("❌ Input tidak valid. Episode harus berupa angka.\n")
-            pause(2, "Kembali ke menu...")
-            continue
+            pilih_ep_value = inquirer.select(
+                message=f"Pilih episode {anime['judul']} ({len(episodes)} total):",
+                choices=choices_ep
+            ).execute()
+        except KeyboardInterrupt:
+            print("\nPemilihan dibatalkan.")
+            pause(2)
+            break
 
-        if pilih_ep == 0:
+        if pilih_ep_value == 0:
             continue
-
-        episodes = anime.get("episodes", [])
-        if not (1 <= pilih_ep <= len(episodes)):
-            print("Episode tidak ditemukan.\n")
-            pause(2, "Kembali ke menu...")
-            continue
-
+        
+        pilih_ep = int(pilih_ep_value)
         episode = episodes[pilih_ep - 1]
-        if episode.get("akses") == "premium" and user.get("role") != "pro":
-            print("Episode ini terkunci. Upgrade ke Pro untuk menonton episode premium.\n")
-            pause(3, "Kembali ke menu...")
-            continue
 
         clear()
         print(f"\nMenonton {anime['judul']} - {episode['judul']}...\n")
@@ -282,11 +293,11 @@ def tonton_anime(user):
             pause(3)
 
         if not anime_crud.mau_lagi():
-            break
+            break        
 
 def tampilkan_riwayat(user):
     clear()
-    print(f"\n=== Riwayat tontonan {user.get('username')} ===\n")
+    print(f"\n=== Riwayat tontonan {user.get('username')} ({user.get('role').upper()}) ===\n")
     history = user.get("history", [])
     if not history:
         print("Riwayat tontonan masih kosong.\n")
@@ -307,7 +318,7 @@ def menu_user(user):
             rekomendasi()
             print("\n")
             pilihan = inquirer.select(
-                message="Pilih menu:",
+                message=f"Halo {user.get('username')} ({user.get('role').upper()}). Pilih menu:",
                 choices=[
                     "Nonton Anime",
                     "Riwayat tontonan",

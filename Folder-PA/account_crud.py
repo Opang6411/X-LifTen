@@ -1,5 +1,6 @@
 import penyimpanan
 import tampilan
+from InquirerPy import inquirer
 
 def tampilkan_akun():
     try:
@@ -8,6 +9,7 @@ def tampilkan_akun():
             tampilan.pause(2, "Kembali ke menu sebelumnya...")
             return
 
+        print("\n=== DAFTAR AKUN ===")
         for i, a in enumerate(penyimpanan.akun, start=1):
             username = a.get("username", "(nama tidak valid)")
             role = a.get("role", "user")
@@ -16,7 +18,6 @@ def tampilkan_akun():
 
     except Exception as e:
         print(f"❌ Kesalahan saat menampilkan akun: {e}")
-        print("Pastikan `penyimpanan.akun` diinisialisasi dengan benar.")
         tampilan.pause(3)
 
 def ubah_role_akun():
@@ -26,6 +27,7 @@ def ubah_role_akun():
             tampilan.pause(2, "Kembali ke menu sebelumnya...")
             return
 
+        tampilan.clear()
         tampilkan_akun()
 
         try:
@@ -48,12 +50,15 @@ def ubah_role_akun():
             tampilan.pause(2, "Kembali ke menu sebelumnya...")
             return
 
-        while True:
-            role_baru = input("Role baru (user/pro): ").lower().strip()
-            if role_baru in ["user", "pro"]:
-                break
-            print("Input tidak valid. Hanya 'user' atau 'pro'.\n")
-            tampilan.pause(2, "Coba lagi...")
+        role_baru = inquirer.select(
+            message=f"Pilih Role baru untuk {user.get('username')} (saat ini {user.get('role')}):",
+            choices=["user", "pro", "Batal"]
+        ).execute()
+        
+        if role_baru == "Batal":
+            print("Perubahan role dibatalkan.\n")
+            tampilan.pause(2)
+            return
 
         user["role"] = role_baru
         penyimpanan.save_akun()
@@ -67,7 +72,6 @@ def ubah_role_akun():
         return
     except Exception as e:
         print(f"❌ Kesalahan saat mengubah role akun: {e}")
-        print("Periksa hak akses file dan struktur data akun.")
         tampilan.pause(3)
 
 
@@ -84,6 +88,7 @@ def hapus_akun():
             tampilan.pause(2, "Kembali ke menu sebelumnya...")
             return
 
+        tampilan.clear()
         tampilkan_akun()
 
         try:
@@ -106,15 +111,16 @@ def hapus_akun():
             tampilan.pause(2, "Kembali ke menu sebelumnya...")
             return
 
-        konfirmasi = input(f"Yakin ingin menghapus akun '{user.get('username')}'? (y/n): ").lower()
-        if konfirmasi == "y":
+        konfirmasi = inquirer.confirm(
+            message=f"Yakin ingin menghapus akun '{user.get('username')}'?"
+        ).execute()
+
+        if konfirmasi:
             penyimpanan.akun.remove(user)
             penyimpanan.save_akun()
             print(f"Akun '{user.get('username')}' telah dihapus!\n")
-        elif konfirmasi == 'n':
-            print("Penghapusan dibatalkan.\n")
         else:
-            print("Input tidak valid. Penghapusan dibatalkan.\n")
+            print("Penghapusan dibatalkan.\n")
             
         tampilan.pause(2, "Kembali ke menu sebelumnya...")
         
@@ -124,5 +130,4 @@ def hapus_akun():
         return
     except Exception as e:
         print(f"❌ Kesalahan saat menghapus akun: {e}")
-        print("Periksa hak akses file dan struktur data akun.")
         tampilan.pause(3)

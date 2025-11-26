@@ -1,25 +1,31 @@
 import penyimpanan
 import tampilan
+from InquirerPy import inquirer
 import sys
 
 def mau_lagi():
-    while True:
-        try:
-            lagi = input("Lakukan operasi ini lagi? (y/n): ").lower()
-            if lagi == "y":
-                return True
-            elif lagi == "n":
-                print("Kembali...\n")
-                input("Tekan Enter untuk melanjutkan...")
-                return False
-            else:
-                print("Input tidak valid. Silakan masukkan 'y' atau 'n'.\n")
-        except KeyboardInterrupt:
+    try:
+        pilihan = inquirer.select(
+            message="Lakukan operasi ini lagi?",
+            choices=["Ya", "Tidak"]
+        ).execute()
+        
+        if pilihan == "Ya":
+            return True
+        elif pilihan == "Tidak":
+            print("Kembali...\n")
+            input("Tekan Enter untuk melanjutkan...")
             return False
+            
+    except KeyboardInterrupt:
+        return False
+    except Exception:
+        return False
 
 def tambah_anime():
     while True:
         try:
+            tampilan.clear()
             print("=== Tambah Anime ===")
 
             judul = input("Judul anime (0 untuk kembali): ").strip()
@@ -32,7 +38,7 @@ def tambah_anime():
 
             judul_bersih = judul.lower()
 
-            if any(a["judul"].strip().lower() == judul_bersih for a in penyimpanan.data_anime):
+            if any(a.get("judul", "").strip().lower() == judul_bersih for a in penyimpanan.data_anime):
                 print("Anime dengan nama tersebut sudah ada.\n")
                 tampilan.pause(2, "Kembali ke menu sebelumnya...")
                 continue
@@ -89,18 +95,23 @@ def update_anime():
                 tampilan.pause(2, " ")
                 break
 
-            anime = next((a for a in penyimpanan.data_anime if a["id"] == anime_id), None)
+            anime = next((a for a in penyimpanan.data_anime if a.get("id") == anime_id), None)
             if anime is None:
                 print("Anime tidak ditemukan.\n")
                 tampilan.pause(2, "Kembali ke menu sebelumnya...")
                 continue
 
-            print(f"\nMengupdate {anime['judul']}")
-            print("1. Tambah episode baru")
-            print("2. Ubah status akses episode")
-            menu = input("Pilih: ")
+            menu = inquirer.select(
+                message=f"\nMengupdate {anime.get('judul')}. Pilih opsi:",
+                choices=[
+                    "Tambah episode baru",
+                    "Ubah status akses episode",
+                    "Hapus episode",
+                    "Batal"
+                ]
+            ).execute()
 
-            if menu == "1":
+            if menu == "Tambah episode baru":
                 while True:
                     judul_ep = input("Judul episode baru: ").strip()
                     if judul_ep == "":
@@ -128,7 +139,7 @@ def update_anime():
                 print(f"Episode '{judul_ep}' berhasil ditambahkan.\n")
                 tampilan.pause(2, "Kembali ke menu sebelumnya...")
 
-            elif menu == "2":
+            elif menu == "Ubah status akses episode":
                 episodes = anime.get("episodes", [])
                 if not episodes:
                     print("Anime ini belum memiliki episode.\n")
@@ -139,7 +150,7 @@ def update_anime():
                     print(f"{i}. {ep.get('judul')} ({ep.get('akses')})")
                 
                 try:
-                    idx = int(input("Pilih episode yang ingin diubah (0 untuk kembali): "))
+                    idx = int(input("Pilih nomor episode yang ingin diubah (0 untuk batal): "))
                     if idx == 0:
                         continue
                     if not (1 <= idx <= len(episodes)):
@@ -163,11 +174,43 @@ def update_anime():
                 print("Status akses diperbarui.\n")
                 tampilan.pause(2, "Kembali ke menu sebelumnya...")
 
-            else:
-                print("Pilihan tidak valid.\n")
-                tampilan.pause(2)
+            elif menu == "Hapus episode":
+                episodes = anime.get("episodes", [])
+                if not episodes:
+                    print("Anime ini belum memiliki episode.\n")
+                    tampilan.pause(2, "Kembali ke menu sebelumnya...")
+                    continue
+
+                print("\nDaftar Episode:")
+                for i, ep in enumerate(episodes, start=1):
+                    print(f"{i}. {ep.get('judul')} ({ep.get('akses')})")
+
+                try:
+                    idx = int(input("Pilih nomor episode yang ingin dihapus (0 untuk batal): "))
+                    if idx == 0:
+                        continue
+                    if 1 <= idx <= len(episodes):
+                        konfirmasi = inquirer.confirm(
+                            message=f"Yakin ingin menghapus episode '{episodes[idx-1].get('judul')}'?"
+                        ).execute()
+                        if konfirmasi:
+                            dihapus = episodes.pop(idx - 1)
+                            penyimpanan.save_anime()
+                            print(f"Episode '{dihapus.get('judul')}' berhasil dihapus.")
+                        else:
+                            print("Penghapusan episode dibatalkan.")
+                        tampilan.pause(2)
+                    else:
+                        print("Nomor episode tidak valid.")
+                        tampilan.pause(2)
+                except ValueError:
+                    print("Input tidak valid.")
+                    tampilan.pause(2)
             
-            if not mau_lagi():
+            elif menu == "Batal":
+                break
+            
+            if menu != "Batal" and not mau_lagi():
                 break
 
         except KeyboardInterrupt:
@@ -182,25 +225,27 @@ def update_anime():
 def hapus_anime():
     while True:
         try:
+            tampilan.clear()
             anime_id = tampilan.menu_tampil_anime(penyimpanan.data_anime)
             if anime_id is None:
                 print("Kembali ke menu sebelumnya...\n")
                 input("Tekan Enter untuk melanjutkan...")
                 break
             
-            anime = next((a for a in penyimpanan.data_anime if a["id"] == anime_id), None)
+            anime = next((a for a in penyimpanan.data_anime if a.get("id") == anime_id), None)
             if anime is None:
                 print("Anime tidak ditemukan.\n")
                 continue
                 
-            keyakinan = input(f"Yakin ingin menghapus anime '{anime['judul']}'? (y/n): ").lower()
+            konfirmasi = inquirer.confirm(
+                message=f"Yakin ingin menghapus anime '{anime.get('judul')}'?"
+            ).execute()
             
-            if keyakinan == "y":
+            if konfirmasi:
                 penyimpanan.data_anime.remove(anime)
-                # Asumsi fungsi reindex_anime_ids tidak menyimpan. Save_anime dipanggil terpisah.
                 penyimpanan.reindex_anime_ids()
                 penyimpanan.save_anime()
-                print(f"Anime '{anime['judul']}' berhasil dihapus!\n")
+                print(f"Anime '{anime.get('judul')}' berhasil dihapus!\n")
             else:
                 print("Penghapusan dibatalkan.\n")
             
