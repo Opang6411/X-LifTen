@@ -21,24 +21,27 @@
             {
                 "anime": "Dragon's Disciple",
                 "episode": "Episode 5 - Dragon's Awakening"
+            },
+            {
+                "anime": "Attack on Titan",
+                "episode": "Episode 4 - The Night of the Closing Ceremony"
+            },
+            {
+                "anime": "Jujutsu Kaisen",
+                "episode": "Episode 1 - Ryomen Sukuna"
             }
         ]
     },
     {
         "username": "syamil",
         "password": "073",
-        "role": "user",
-        "history": [
-            {
-                "anime": "Attack on Titan",
-                "episode": "Barudak Titan"
-            }
-        ]
+        "role": "pro",
+        "history": []
     },
     {
         "username": "lily",
-        "password": "089",
-        "role": "user",
+        "password": "1234",
+        "role": "pro",
         "history": []
     }
 ]

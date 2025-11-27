@@ -1,5 +1,6 @@
 import json
 import os
+#kamidisini
 
 BASE_DIR = os.path.dirname(__file__)
 ANIME_PATH = os.path.join(BASE_DIR, 'data-anime.json')

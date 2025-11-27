@@ -2,7 +2,6 @@ from InquirerPy import inquirer
 import auth
 import tampilan
 import time
-import sys
 
 def proses_login():
     user = auth.login()

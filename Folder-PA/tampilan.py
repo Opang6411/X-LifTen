@@ -3,6 +3,7 @@ import random
 import time
 import sys
 from InquirerPy import inquirer
+#kamidisini
 
 import penyimpanan
 import anime_crud # Dipanggil di tonton_anime dan menu admin
